@@ -10,7 +10,7 @@
     <script>
         var document_url = window.location.href.match(/\/\/[^\/]*\/([^\/]*)\/([^\/]*)\/(.*)/);
         var language = document_url[1].replace('en', 'it');
-        var version = document_url[2].replace('latest', 'bozza').replace('stable', 'stabile');
+        var version = document_url[2].replace('latest', 'stabile').replace('stable', 'stabile');
         var document_page = document_url[3];
         var redirect_url = [
           'https://{{ domain }}',
